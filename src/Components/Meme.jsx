@@ -2,13 +2,13 @@ import React from 'react'
 
 function Meme() {
   return (
-    <div>
+    <main>
         <form className='meme-form'>
-            <input placeholder='Shut Up'></input>
-            <input placeholder='and take my money!'></input>
+            <input  className='meme-input' type='text'  placeholder='Top Text'></input>
+            <input className='meme-input' type='text' placeholder='Bottom Text'></input>
+            <button className='meme-button'>Get a new Meme Image 🖼</button>
         </form>
-        <button></button>
-    </div>
+    </main>
   )
 }
 

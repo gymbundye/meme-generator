@@ -14,31 +14,24 @@
 .Title{
   display: flex;
   margin-right: auto;
-/* position: absolute; */
-width: 140.79px;
-height: 24px;
-/* left: 58px; */
-/* top: 21px; */
-font-family: 'Karla';
-font-style: normal;
-font-weight: 700;
-font-size: 20.7482px;
-line-height: 24px;
-letter-spacing: -0.1em;
-text-shadow: 1px 1px black;
-color: #FFFFFF;
+  width: 140.79px;
+  height: 24px;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.7482px;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+  text-shadow: 1px 1px black;
+  color: #FFFFFF;
 }
 .TrollFace{
-  /* position: absolute; */
   width: 31.31px;
   height: 26.22px;
-  /* left: 20px; */
-  /* top: 19px; */
   display: flex;
   padding: 10px;
 }
 .header-text{
-  /* position: absolute; */
   width: 189px;
   height: 14px;
   left: 324px;
@@ -55,7 +48,38 @@ color: #FFFFFF;
   color: #FFFFFF;
   text-shadow: 1px 1px black;
 }
- 
 .meme-form{
+  font-family: 'Impact';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+  border: 2px solid #000000;
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  padding-bottom: 50%;
+  color: gray;
+  background-color: teal;
+  
+}
+.meme-input{
+  font-family:'karla', sans serif;
+  text-indent: 100px;
+  border-radius: 5px black;
+  
+  
+  
+}
+.meme-button{
+  grid-column: 1 / -1;
+  font-family: 'karla', sans-serif;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  border-radius: 5px;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
   
 }
