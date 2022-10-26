@@ -55,19 +55,18 @@
   font-size: 32px;
   line-height: 39px;
   color: #FFFFFF;
-  border: 2px solid #000000;
+  /* border: 2px solid #000000; */
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
   gap: 20px;
   padding: 20px;
-  padding-bottom: 50%;
   color: gray;
-  background-color: teal;
+  background-color: white;
   
 }
 .meme-input{
   font-family:'karla', sans serif;
-  text-indent: 100px;
+  text-indent: 10px;
   border-radius: 5px black;
   
   
@@ -82,4 +81,8 @@
   border: none;
   cursor: pointer;
   
+}
+.meme-image{
+width: 100%;
+
 }
