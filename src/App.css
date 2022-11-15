@@ -87,7 +87,7 @@
 }
 
 .meme-text{
-  position: absolute;
+    position: absolute;
     width: 80%;
     text-align: center;
     left: 50%;
@@ -112,9 +112,10 @@
 }
 .meme-image{
 max-width: 100%;
-/* position: relative; */
-/* padding: 20px; */
+position: relative;
+padding: 20px;
 border-radius: 5px;
+
 }
 .top{
 top: 0;
